@@ -93,7 +93,7 @@ function Home()
                     margin-bottom: 1.2rem;
                   }
                 }
-                @media (max-width: 480px) {
+                @media (max-width: 270px) {
                   .container-home {
                     padding: 1rem 0.1rem;
                   }
