@@ -80,7 +80,7 @@ function Home()
                     text-align: center !important;
                   }
                   h1 {
-                    font-size: 1.5rem !important;
+                    font-size: 2.5rem !important;
                   }
                   .lead {
                     font-size: 1rem !important;
