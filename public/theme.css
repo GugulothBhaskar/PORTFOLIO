@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+body {
+  background: #fff;
+  color: #18191a;
+  font-family: 'Segoe UI', 'Arial', sans-serif;
+}
+
+.navbar {
+  background: #fff !important;
+  border-bottom: 2px solid #d90429 !important;
+}
+
+.navbar-brand span {
+  color: #d90429 !important;
+}
+
+.nav-link, .navbar-brand, .dropdown-toggle {
+  color: #18191a !important;
+  text-decoration:none;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.nav-link.active, .nav-link:focus, .nav-link:hover, .dropdown-toggle:focus, .dropdown-toggle:hover {
+  color: #d90429 !important;
+  text-decoration:none;
+  border-bottom: 2px solid #d90429 !important;
+  background: transparent !important;
+}
+
+
+.btn-primary, .btn-outline-dark, .btn-outline-light {
+  background: #d90429 !important;
+  color: #fff !important;
+  border: none !important;
+  font-weight: 500;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.btn-primary:hover, .btn-outline-dark:hover, .btn-outline-light:hover {
+  background: #fff !important;
+  color: #d90429 !important;
+  border: 2px solid #d90429 !important;
+}
+
+.btn-live-view {
+  background: #198754 !important; /* Bootstrap success green */
+  color: #fff !important;
+  border: none !important;
+  font-weight: 500;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  transition: background 0.2s, color 0.2s, border 0.2s;
+}
+
+.btn-live-view:hover {
+  background: #fff !important;
+  color: #198754 !important;
+  border: 2px solid #198754 !important;
+}
+
+.bg-light, .dropdown-menu, .card, .form-control, .list-group-item {
+  background: #fff !important;
+  color: #18191a !important;
+  border: 1px solid #eee !important;
+}
+
+.card-title, .dropdown-header, .fw-bold {
+  color: #d90429 !important;
+}
+
+.text-primary, .text-info {
+  color: #d90429 !important;
+}
+
+.text-secondary, .lead, .form-label {
+  color: #18191a !important;
+  opacity: 0.85;
+}
+
+input, textarea, .form-control {
+  background: #f7f7f7 !important;
+  color: #18191a !important;
+  border: 1px solid #d90429 !important;
+}
+
+input:focus, textarea:focus, .form-control:focus {
+  border: 2px solid #d90429 !important;
+  outline: none !important;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  background: #fff;
+}
+::-webkit-scrollbar-thumb {
+  background: #bbb;
+  border-radius: 4px;
+}
+
+a, a:visited {
+  color: #d90429;
+  text-decoration: none;
+}
+a:hover {
+  color: #18191a;
+  text-decoration: none;
+}
+
+/* Section backgrounds */
+.section-bg {
+  background: #fff !important;
+  border-radius: 16px;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.08);
+}
+
+/* For better contrast on overlays */
+.overlay {
+  background: rgba(255,255,255,0.85) !important;
+}
